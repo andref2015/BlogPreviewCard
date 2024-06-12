@@ -1,0 +1,76 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: #F4D04E;
+  font-family: 'Figtree';
+  align-items: center;
+  justify-content: center;
+}
+
+#card {
+  background-color: white;
+  padding: 28px 15px 17px 15px;
+  border-radius: 20px;
+  max-width: 345px;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.8);
+  border: 1.5px solid black;
+}
+
+#cover-image {
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+#card h2 {
+  font-size: 23px;
+  font-weight: 800;
+  margin-top: 10px;
+  color: #1F314F;
+}
+
+#card p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #7D889E;
+}
+
+#learning-box {
+  display: flex;
+  align-items: center; /* Centers vertically */
+  justify-content: center; /* Centers horizontally */
+  background-color: #F4D04E; 
+  padding: 1px 1px 1px 1px;
+  margin: 22px 1px 1px 7px;
+  border-radius: 7px;
+  max-width: 77px;
+  height: 27px;
+}
+
+#learning-box p {
+  color: black;
+}
+
+#card p, h1, h2 {
+  text-align: left;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
+#profile-pic-with-name {
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.author-name {
+  margin-left: 10px;
+  font-family: 'Figtree';
+  font-size: 15px;
+  font-weight: 800;
+  color: black;
+  vertical-align: middle;
+}
