@@ -23,6 +23,12 @@ html, body {
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 700px) {
+  body {
+    transform: scale(0.9);
+  }
+}
+
 #card h2 {
   font-size: 23px;
   font-weight: 800;
